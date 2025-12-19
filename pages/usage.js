@@ -67,9 +67,9 @@ export default function Home({ rickrolled }) {
           </p>
           <p>
             For example,{" "}
-            <code className="bg">https://www.nintendo.com/en-gb/Games/</code>{" "}
+            <code className="bg">https://www.nintendo.com/&#8203;en-gb/&#8203;Games/</code>{" "}
             becomes{" "}
-            <code className="bg">https://www.nintendo.uk.net/en-gb/Games/</code>
+            <code className="bg">https://www.nintendo.<u>uk.net</u>/&#8203;en-gb/&#8203;Games/</code>
             .
           </p>
         </div>
