@@ -131,7 +131,7 @@ export default function Home({ rickrolled }) {
           </a>{" "}
           • Not affiliated with Nintendo or any of its subsidiaries •{" "}
           <a
-            href="https://github.com/gitlimes/nintendo.uk.net"
+            href="https://github.com/limesdotpink/nintendo.uk.net"
             target="_blank"
             rel="noreferrer"
           >
