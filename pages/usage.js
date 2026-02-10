@@ -60,14 +60,14 @@ export default function Home({ rickrolled }) {
         <div className={styles.section}>
           <h1>Usage</h1>
           <p>
-            Simply replace <code className="bg">nintendo.com</code> with{" "}
-            <code className="bg">nintendo.uk.net</code>. The resulting URL will
+            Simply replace <code className="bg">nintendo.<u>com</u></code> with{" "}
+            <code className="bg">nintendo.<u>uk.net</u></code>. The resulting URL will
             redirect to the rickroll video, and its social media preview will
             look identical to the official one.
           </p>
           <p>
             For example,{" "}
-            <code className="bg">https://www.nintendo.com/&#8203;en-gb/&#8203;Games/</code>{" "}
+            <code className="bg">https://www.nintendo.<u>com</u>/&#8203;en-gb/&#8203;Games/</code>{" "}
             becomes{" "}
             <code className="bg">https://www.nintendo.<u>uk.net</u>/&#8203;en-gb/&#8203;Games/</code>
             .
